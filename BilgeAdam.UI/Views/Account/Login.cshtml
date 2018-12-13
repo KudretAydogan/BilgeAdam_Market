@@ -138,7 +138,7 @@
                         @using (Html.BeginForm())
                             {
                             @Html.AntiForgeryToken()
-                            <form role="form" action="javascript:;" method="post" id="login-form" autocomplete="on">
+                            <form role="form" action="javascript:;" method="post" id="login-form" autocomplete="">
 
                                 <div class="form-group">
                                     @Html.LabelFor(x=>x.UserName, new { @class = "sr-only" })
